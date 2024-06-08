@@ -1,0 +1,44 @@
+/* src/style/queue.css */
+
+.queue-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .infos 
+  {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .queue-container h2 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .queue-number {
+    font-size: 72px;
+    font-weight: 600;
+    color: #4D869C; /* Blue color used in the form */
+  }
+  
+  .sms-message {
+    
+    font-size: 14px;
+    font-weight: normal;
+    color: #595959; /* Dark text color */
+    width: 70%;
+  }
+  
+  .doctor-image {
+    width: 100%;
+  }
+  
